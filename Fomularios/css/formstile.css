@@ -1,0 +1,13 @@
+body{
+	background-image: url('../img/wall.jpeg');
+	font-family: 'Fira Sans', sans-serif;
+}
+
+form div{
+	display: block;
+	border: 1px solid;
+	padding: 20px;
+}
+.main{
+	max-width: 90%;
+}

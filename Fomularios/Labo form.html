@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/formstile.css">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+</head>
+<body>
+	<section class="main">
+		<form>
+		<h3>Contactenos</h3>
+		<ul>
+			<li>
+			<label for="name">Nombre:</label>
+			<input type="text" name="name" id="name" placeholder="Ingrese su Nombre" value=""/>*
+			</li>
+			<li>
+				<label for="email">Email:</label>
+				<input type="email" name="email" placeholder="Ingrese su Email" id="email" value="" />*
+			</li>
+			<li>
+				<label for="tipo cuenta">Tipo de Cuenta:</label>
+				<fieldset>	
+					<legend>Tipo de Cuenta</legend>
+            		<input type="radio" name="tipo cuenta" value="gold"> Gold
+        			<input type="radio" name="tipo cuenta" value="platino"> Platino
+					<input type="radio" name="tipo cuenta" value="general"> General
+					<input type="radio" name="tipo cuenta" value="none" checked="checked"> None
+				</fieldset>
+			</li>
+			<li>
+				<label for="soporte">Clase de Sorporte:</label>
+				<select name="soporte">
+					<option value="online">On line</option>
+					<option value="insite">En Sitio</option>
+					<option value="viatelefonica">Via Telefonica</option>
+					<option value="otro">Otros</option>
+				</select>
+			</li> 
+			<li>
+				<label for="cuenta">Mi Cuenta es unica</label>
+				<input type="checkbox" name="cuenta" id="cuenta" value="cuenta">
+			</li>
+			<li>
+				<label for="comments">Comentarios</label>
+			<li>
+				<textarea type="comments" name="comments" id="comments" cols="50" rows="15"></textarea>
+			</li>
+				
+			<li>
+				<input type="submit" value="Guardar"/>
+			</li>
+		</ul>
+	</form>
+	</section>
+	
+</body>
+</html>
