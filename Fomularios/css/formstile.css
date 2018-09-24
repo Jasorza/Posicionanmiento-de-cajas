@@ -9,5 +9,9 @@ form div{
 	padding: 20px;
 }
 .main{
-	max-width: 90%;
+	margin: 0px auto;
+	width: 90%;
+	padding: 0px;
+	max-width: 1170px;
+	max-height: 780px;
 }
